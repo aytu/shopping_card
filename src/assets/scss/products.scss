@@ -1,0 +1,23 @@
+.product-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .productInCardDiv{
+        display: flex;
+        justify-content: space-between;
+        border: 0.5px solid rgb(209, 202, 202);
+        button{
+            width: 2.5rem;
+        }
+    }
+}
+
+.w_100{
+    width: 100%;
+}
+
+.product-item{
+   margin: 0 10px 10px 10px;
+}
+
